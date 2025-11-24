@@ -1,0 +1,29 @@
+{
+  "name": "dark-minimal",
+  "displayName": "Minimalist DL",
+  "description": "Minimalistic dark and light theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "benii1",
+  "icon": "assets/minimalist.png",
+  "galleryBanner.color": {"color": "#222222", "theme": "dark"},
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimal Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Minimal-color-theme.json"
+      },
+      {
+        "label": "Minimal Light", 
+        "uiTheme": "vs",
+        "path": "./themes/Light Minimal-color-theme.json"
+      }
+    ]
+  }
+}
